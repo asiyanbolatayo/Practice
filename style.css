@@ -1,0 +1,35 @@
+/* attribute, =, ^, $, ~, |, * */
+[href="https://altschoolafrica.com"]{
+              color: rebeccapurple;}
+/* Start with http */
+[href^="https"]{
+              color: rebeccapurple;}
+/* Ends with .io */
+[href$=".io"]{
+              color: rebeccapurple;}
+/* Contains  */
+[href*="altschool.dev"]{
+              color: rebeccapurple;}
+
+/* Pseudo-classes: Use to style element based on their state,position, or user interactions  */
+button:hover{
+  background-color: orange;}
+li:nth-child(even) {
+  text-transform: uppercase;}
+input:focus {
+  border: 2px solid red;}
+/* Pseudo-element: Use to style specific element based on their state,position, or user interactions  */
+p::before {
+  content: "😎";
+  display: flex;}
+
+p::after {
+  content: "😎";
+  display: flex;}
+/* Descendant selector */
+P span{
+  text-decoration: underline;}
+
+/* important rule: This has the highest specificity in css */
+selector {
+  property: value !important;}
