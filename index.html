@@ -65,5 +65,111 @@
   </tbody>
 </table>
 
+<fieldset>
+  <legend>Who is your favorite student?</legend>
+  <ul>
+    <li>
+      <label>
+        <input type="radio" value="blendan" name="machine"> Blendan Smooth
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" value="hoover" name="machine"> Hoover Sukhdeep
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="radio" value="toasty"  name="machine"> Toasty McToastface
+      </label>
+    </li>
+  </ul>
+</fieldset><br>
+
+<dialog open aria-labelledby="dialogid">
+  <form action="thankyou.php">
+    <button type="submit" aria-label="close" formmethod="dialog" formnovalidate>X</button>
+    <h2 id="dialogid">Application</h2>
+    <p>All fields are required</p>
+    <p>
+       <label>Name:
+         <input type="text" name="name" required />
+      </label>
+    </p>
+    <p>
+      <label>Warranty:
+        <input type="number" min="0" max="10" name="warranty" required />
+       </label>
+    </p>
+    <p>
+      <label>Power source:
+        <select name="powersoure">
+          <option>AC/DC</option>
+          <option>Battery</option>
+          <option>Solar</option>
+        </select>
+      </label>
+    </p>
+    <p>
+      <button type="submit"
+      formmethod="post">Submit</button>
+    </p>
+  </form>
+</dialog>
+
+<h1>Audio Tag with Various Attributes</h1>
+<audio controls muted>
+  <source src="Media/My_Mum_Is_Amazing.mp3" type="audio/mp3">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<h1>Video Tag with Various Attributes</h1>
+    <video controls loop muted preload="auto" crossorigin="anonymous">
+        <source src="Media/My Mum Is Amazing _ Zain.mp4" type="video/mp4">
+        <source src="videofile.webm" type="video/webm">
+        Your browser does not support the video element.
+    </video>
+    <ol class="grid grid-cols-4 gap-4">
+      <li><input tabindex="3" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="6" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="2" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="0" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="0" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="-1" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="0" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="8" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="1" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="5" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="7" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+      <li><input tabindex="4" class="text-2xl border-2 outline w-20 focus:bg-palegoldenrod focus:border-green focus:outline-red-600"></li>
+    </ol>
+
+    <div class="p-4">
+      <p class="mb-2"><label class="text-base">Put your cursor in the text box, then hit your tab key several times:</label></p>
+      <input tabindex="0" class="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+    </div>
+    
+    <div class="inline-flex flex-row-reverse gap-2">
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">flexbox.</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">CSS</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">with</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">styled</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">then</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600 order-3">This</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">order</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">reverse</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">in</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">written</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">was</span>
+      <span tabindex="0" class="border border-dashed focus:bg-palegoldenrod focus:border-green-600 focus:outline focus:outline-2 focus:outline-red-600">sentenced</span>
+    </div>
+
+    <input name="country" list="countries">
+<datalist id="countries">
+  <option>Afghanistan</option>
+  <option>Nigeria</option>
+  ...
+</datalist>
 </body>
 </html>
