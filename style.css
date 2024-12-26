@@ -1,6 +1,6 @@
-.table {
-  border: 2px double red;
-  /* border-color: aqua; */
+table, th, td {
+  border: 1px solid black;
+  width: 300px;
 }
 
 
