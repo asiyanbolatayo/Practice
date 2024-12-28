@@ -6,9 +6,9 @@ table, th, td {
 function light(sw) {
   var pic;
   if (sw == 0) {
-    pic = "pic_bulboff.gif"
+    pic = "Media/pic_bulboff.gif"
   } else {
-    pic = "pic_bulbon.gif"
+    pic = "Media/pic_bulbon.gif"
   }
   document.getElementById('myImage').src = pic;
 }
