@@ -4,15 +4,7 @@ table, th, td {
   text-align: center;
 }
 
-function light(sw) {
-  var pic;
-  if (sw == 0) {
-    pic = "Media/pic_bulboff.gif"
-  } else {
-    pic = "Media/pic_bulbon.gif"
-  }
-  document.getElementById('myImage').src = pic;
-}
+
 
 
 /* attribute, =, ^, $, ~, |, * */
@@ -47,6 +39,15 @@ p::after {
 P span{
   text-decoration: underline;}
 
-/* important rule: This has the highest specificity in css */
-selector {
-  property: value !important;}
+/* Pseudo-Classes selectors */
+button:hover {
+  background-color: orange;
+}
+
+li:nth-child(even) {
+  text-transform: uppercase;
+}
+
+input:focus {
+  border: 2px solid red;
+}
