@@ -3,6 +3,7 @@ table, th, td {
   width: 300px;
   text-align: center;
 }
+
 function light(sw) {
   var pic;
   if (sw == 0) {
