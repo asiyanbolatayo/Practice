@@ -38,7 +38,9 @@ p::after {
 /* Descendant selector */
 P span{
   text-decoration: underline;}
-
+  p span {
+    color: red;
+  }
 /* Pseudo-Classes selectors */
 button:hover {
   background-color: orange;
@@ -51,3 +53,60 @@ li:nth-child(even) {
 input:focus {
   border: 2px solid red;
 }
+/* Child selector selectors */
+ul > li {
+  list-style: none;
+}
+/* Adjacent Sibling selectors */
+h1 + p {
+  margin-top: 0;
+}
+/* General Siblings selectors */
+h1 ~ p {
+  color: blue;
+}
+/* Grouping selector */
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+/* Nesting Selectors & */
+.container {
+  padding: 20px;
+  .title {
+    color: red;
+  }
+  &:hover, &:focus {
+    background-color: lightblue;
+  }
+}
+
+/* Has() Pseudo Selector */
+figure:has(figcaption) {
+  border: 1px solid black;
+  padding: 0.5rem;
+/* IS() Pseudo Selector */
+}
+:is(h1, h2, h3) {
+  color: red;
+}
+
+h2{
+  color: blue;
+}
+
+.title1 {
+  color: yellow;
+}
+
+#content.menu li:hover{
+  color: green;
+}
+
+div p.note{
+  background-color: orange;
+}
+
+/*
+.h1 {
+  color: red !important;
+}   */
