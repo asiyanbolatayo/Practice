@@ -1,6 +1,6 @@
 table, th, td {
   border: 1px dotted black;
-  width: 300px;
+  width: 50vw;
   text-align: center;
 }
 
@@ -28,14 +28,14 @@ li:nth-child(even) {
   text-transform: uppercase;}
 input:focus {
   border: 2px solid red;}
-/* Pseudo-element: Use to style specific element based on their state,position, or user interactions  */
+/* Pseudo-element: Use to style specific element based on their state,position, or user interactions  
 p::before {
   content: "👽";
   display: flex;}
 
 p::after {
   content: "😎";
-  display: flex;}
+  display: flex;} */
 /* Descendant selector */
 P span{
   text-decoration: underline;}
