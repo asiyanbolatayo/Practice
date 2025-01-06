@@ -1,11 +1,26 @@
 table, th, td {
-  border: 1px dotted black;
+  border: 1px solid black;
   width: 50vw;
   text-align: center;
 }
 
+/*:root {
+  --primary-color: #ff5733;
+  --secondary-color: #f0f0f0;
+}
+
+p {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}*/
+
 body{
-  background-color: hsla(9, 100%, 70%, 0.5)
+   background-color: hsla(9, 100%, 70%, 0.2); 
+  /*background: linear-gradient(to left, yellow, red);*/
+  /* background: radial-gradient(circle, red, yellow, green); */
+  /* background: conic-gradient(from 90deg, red, yellow, green); */
+  /* background: repeating-radial-gradient(circle, red, yellow 2%); */
+  /*background: repeating-linear-gradient(45deg, red, yellow 10%); */
 }
 
 /* attribute, =, ^, $, ~, |, * */
@@ -117,10 +132,10 @@ div p.note{
   
 }
 
-p {
+ p {
   color: green;
   font-weight:500px;
-}
+} 
 
 .parent {
   color: red;
@@ -158,3 +173,28 @@ html {
     calc(var(--red-lit) + 10%)
   );
 }
+
+/* p {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+} */
+ /* @font-face {
+  font-family: "CustomFont";
+  src: url("custom-font.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+body {font-family: "CustomFont", sans-serif;} */
