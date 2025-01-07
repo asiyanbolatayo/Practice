@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(245,245,220,0.5);
+}
+
+#headerArea{
+    width: 100%;
+    height: 75px;
+    /* padding-left: 30px;
+    padding-top: 10px;*/
+    background: url("Media/banner_flower.jpg")  no-repeat;}
