@@ -8,8 +8,8 @@ body{
 }
 
 #headerArea{
-    width: 100%;
+    width: 100vw;
     height: 75px;
-    /* padding-left: 30px;
-    padding-top: 10px;*/
-    background: url("Media/banner_flower.jpg")  no-repeat;}
+    padding-left: 30px;
+    padding-top: 10px;
+    background: url("Media/banner_flower.jpg")  repeat;}
