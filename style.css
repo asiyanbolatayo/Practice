@@ -198,3 +198,13 @@ body {
   font-style: normal;
 }
 body {font-family: "CustomFont", sans-serif;} */
+
+/* When using the shorthand property the order of the property values is:
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+background-color
+background-image
+background-repeat
+background-attachment
+background-position */
