@@ -1,2 +1,2 @@
 # Practice
-Short Practice: THis repository is for my practice during class.
+Short Practice: This repository is for my in-class practice.
